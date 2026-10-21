@@ -1,0 +1,25 @@
+﻿# dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+# build output
+.next/
+dist/
+build/
+.turbo/
+.cache/
+.vite/
+.vercel/
+.wrangler/
+# secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+# misc
+.DS_Store
+Thumbs.db
+*.log
